@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+         <title>homepage</title>
+        <link rel="icon" href= "/Images/weather.png">
+        <link rel="stylesheet" href="/css/style.css">
+        
+    </head>
+
+    <body>
+
+    <div class = "main-content">
+
+        {{>header}}
+
+        <img src=/Images/weather.png><br>
+
+        Use this webpage to find your weather report
+
+        <form>
+        <input placeholder = "Enter  your city here">
+        <button id ="search_button1">Search</button>
+
+        </form>
+        <p id = 'error_message'></p>
+        <p id = 'city_name'></p>
+        <p id = 'current_temperature'></p>
+        <p id = 'chance_of_rain'></p>
+        <p id = 'weather_forecast'></p>
+
+        <button id ='button1'>button1</button>
+
+      
+      </div>
+
+      
+
+
+
+        
+        {{>footer}}
+      <script src='/js/app.js'> </script>
+
+    </body>
+
+</html>
+</html>

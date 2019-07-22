@@ -1,0 +1,109 @@
+h1 {
+    color: white;
+}
+
+img {
+     width: 250px;
+     height: 250px
+}
+
+
+
+      /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,33,71,1) 0%, rgba(47,183,186,1) 90% );  */
+    /* background-image: linear-gradient( 68.1deg,  rgba(61,114,180,1) 5.8%, rgba(82,82,82,1) 98.1% ); */
+
+html {
+    height: 100%;
+}
+body {
+    font-family: arial;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,33,71,1) 0%, rgba(47,183,186,1) 90% );
+    height: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     max-width: 650px; 
+     padding:16px;
+     display:flex;
+     flex-direction: column;
+     min-height: 100vh;
+
+}
+
+input{
+    border:1px solid #cccccc;
+    border-radius: 7px;
+    padding :7px;
+
+
+}
+
+button{
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    border-radius: 7px;
+    padding: 7px;
+    cursor:pointer;
+
+}
+
+p{
+    color:white;
+    font-size:18px;
+}
+#city_name{
+    font-size:25px;
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
+#error_message{
+    font-size:25px;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+
+
+footer{
+
+    color:lightgray;
+    border-top:1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+
+
+}
+
+header{
+
+
+    margin-top:16px;
+    margin-bottom: 48px
+
+}
+
+ header h1{
+    font-size: 68px;
+    margin-bottom: 16px;
+}
+
+header a {
+
+    margin:2px 50px 2px;
+    color:white;
+    text-decoration: none;
+}
+.portrait{
+
+    width:350px;
+
+}
+
+
+.main-content{
+    flex-grow:1;
+}
